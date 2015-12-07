@@ -19,6 +19,6 @@ class BookShelfSimulation extends Simulation {
   val users = scenario("books api action").exec(scns)
 
   setUp(users.inject(
-    rampUsers(100) over(5 minutes)
+    rampUsers(100) over(1 minutes)
   ).protocols(httpConf))
 }

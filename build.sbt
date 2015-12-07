@@ -8,8 +8,6 @@ val appDeps = Seq(
 )
 
 val stressTestDeps = Seq (
-  "org.apache.geronimo.specs" % "geronimo-jms_1.1_spec" % "1.1.1",
-  "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.7",
   "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.1.7" % Test,
   "io.gatling" % "gatling-test-framework" % "2.1.7" % Test
 )
