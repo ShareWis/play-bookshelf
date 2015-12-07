@@ -1,0 +1,8 @@
+# Routes
+# ~~~~
+
+# Books API
+GET     /api/books                            controllers.BooksApiController.list()
+GET     /api/books/:bookId                    controllers.BooksApiController.book(bookId: Long)
+POST    /api/books                            controllers.BooksApiController.create()
+
